@@ -7,3 +7,12 @@ edition = "2021"
 
 [dependencies]
 imagequant = "4.2.0"
+log = "0.4.19"
+log4rs = "1.2.0"
+oxipng = "8.0.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[build-dependencies]
+csbindgen = "1.7.0"
